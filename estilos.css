@@ -1,0 +1,64 @@
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+.info-personal p, .education p, .experience p, .skills p {
+    margin: 5px 0;
+}
+.experience-item, .education-item {
+    margin-bottom: 15px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    background: #007BFF;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+    
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .info {
+            flex: 1;
+        }
+        .photo {
+            margin-right: 20px;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+  
